@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .item {
+        @apply border-light-gray border-2 w-[5.5rem] py-3 px-4;
+      }
+    
+}
