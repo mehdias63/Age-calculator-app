@@ -1,17 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    fontFamily: {
-      rub: ["Rubik"],
-    },
-    extend: {
-      colors: {
-        "light-gray": "#DCDCDC",
-        "light-blue": "#55C2E6",
-      },
-    },
-  },
-  plugins: [],
-};
-
+	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+	theme: {
+		fontFamily: {
+			pop: ['Poppins'],
+		},
+		extend: {
+			colors: {
+				'dark-gray': '#716F6F',
+				'light-gray': '#f0f0f0',
+				'light-purple': '#854DFF',
+			},
+		},
+	},
+	plugins: [],
+}

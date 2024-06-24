@@ -44,10 +44,10 @@ function App() {
 	}
 
 	return (
-		<main className="bg-light-gray min-h-screen flex flex-col items-center mx-auto max-w-[90rem]">
+		<main className="bg-light-gray min-h-screen flex flex-col items-center mx-auto max-w-[90rem] font-pop p-4">
 			<form
 				onSubmit={handleSubmit}
-				className=" bg-white max-w-[52.5rem]"
+				className=" bg-white max-w-[52.5rem] p-4"
 			>
 				<div className="flex gap-4 items-center">
 					<div>
@@ -83,7 +83,7 @@ function App() {
 					<div className="w-full h-1 bg-light-gray"></div>
 					<button
 						type="submit"
-						className="bg-red-500 mt-[-2rem] ml-[15rem] md:mt-0 md:ml-0"
+						className="bg-red-500 rounded-full mt-[-2rem] ml-[15rem] md:mt-0 md:ml-0"
 					>
 						<img src="/images/icon-arrow.svg" />
 					</button>
